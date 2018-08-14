@@ -1,0 +1,79 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+# frankfurt
+172.30.1.11     fr-app
+172.30.1.11     api.boom.sing.plus
+172.30.1.11     api.sing.plus
+172.30.1.11     m.sing.plus
+
+172.30.1.12     fr-app-s1
+
+172.30.1.21     fr-cms
+172.30.1.21     cms-server.management.sing.plus
+172.30.1.22     fr-cms-s1
+
+172.30.1.23     fr-imgrizer
+172.30.1.23     aws-worker-server.management.sing.plus
+
+172.30.1.31     fr-log
+172.30.1.32     fr-log-s1
+172.30.1.33     fr-log-s2
+
+172.30.1.35     fr-staging
+172.30.1.35     staging.rd.eaglemobi.cc
+172.30.1.35     staging.api.boom.sing.plus
+172.30.1.35     staging.api.sing.plus
+172.30.1.35     staging.im.sing.plus
+172.30.1.35     staging.search.sing.plus
+172.30.1.35     staging.dgraph.sing.plus
+172.30.1.35     test-cms.sing.plus
+
+
+172.30.1.36     fr-db
+172.30.1.37     fr-db-s1
+172.30.1.38     fr-db-s2
+
+172.30.1.40     fr-go
+172.30.1.40     cd.rd.eaglemobi.cc
+172.30.1.40     code.rd.eaglemobi.cc
+172.30.1.40     git.rd.eaglemobi.cc
+
+
+172.30.1.41     fr-elastic
+172.30.1.41     fr-app-s2
+172.30.1.41     im.sing.plus
+172.30.1.41     search.sing.plus
+172.30.1.41     www.sing.plus
+172.30.1.41     answer.eaglemobi.cc
+
+172.30.1.50     fr-service
+172.30.1.55     fr-service-staging
+
+# mumbai
+172.31.8.231    mu-app
+172.31.8.231    api.gao.sing.plus
+172.31.8.231    api.gao.boom.sing.plus
+
+172.31.11.30    mu-app-s1
+172.31.11.30    search.gao.sing.plus
+172.31.11.30    im.gao.sing.plus
+
+172.31.4.212    mu-cms
+172.31.8.192    mu-cms-s1
+
+172.31.21.13    mu-db
+172.31.18.203   mu-db-s1
+
+
+172.31.13.46    mu-staging
+172.31.13.46    staging.api.gao.sing.plus
+172.31.13.46    staging.gaao.sing.plus
+172.31.13.46    staging.im.gao.sing.plu
+172.31.13.46    staging.search.gao.sing.plus
+172.31.13.46    test-cms.gao.sing.plus
+
+
+
+172.31.18.204   mu-proxy
+172.31.31.222   mu-service
+
+35.156.108.242  fr-aws

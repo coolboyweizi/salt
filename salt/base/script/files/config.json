@@ -1,0 +1,7 @@
+{
+  "CORPID"  : "wx7ad7d1c3e3e5d30c",
+  "CORPSECRET" : "IAiXx4qeqZVlzhCwS0dWDH2C0SYNhLVy6ltCxtbM1VuyHPnuJM3i3ENicGaI0sjk",
+  "HOSTNAME":"{{grains['id']}}",
+  "PART_ID" : "5",
+  "APP_ID"  : 1000005 ,
+}

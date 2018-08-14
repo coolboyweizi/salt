@@ -1,0 +1,6 @@
+location ^~ /.well-known/acme-challenge/ {
+    #alias /data/www/_challenges-5817040be49bd/;
+    alias /data/www/_challenges-5817040be49bd/.well-known/acme-challenge/;
+    more_set_headers    "Content-Type: application/json";
+    try_files $uri =404;
+}

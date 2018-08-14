@@ -1,0 +1,14 @@
+server {
+  listen       80;
+  server_name  domain;
+
+  access_log   /data/log/openresty/domain.http.access.log;
+
+
+  access_log  /data/log/openresty/domain.access.log;
+  error_log   /data/log/openresty/domain.error.log debug;
+
+
+  root /data/www/domain;
+ include "vhosts/_well-known-challenges.conf.fragment";
+}

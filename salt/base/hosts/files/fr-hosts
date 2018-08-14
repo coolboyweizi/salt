@@ -1,0 +1,27 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost6 localhost6.localdomain6
+
+
+
+# app
+172.30.1.11 fr-app
+172.30.1.12 fr-app-s1
+
+# cms
+172.30.1.21 fr-cms
+172.30.1.22 fr-cms-s1
+
+# log & staging
+172.30.1.31 fr-log
+172.30.1.32 fr-log-s1
+172.30.1.33 fr-log-s2
+
+172.30.1.35 fr-staging
+172.30.1.35 staging.rd.eaglemobi.cc
+
+
+# db & service & es
+172.30.1.40 go.cd.eaglemobi.cc
+172.30.1.41 fr-db
+172.30.1.42 fr-db-s1
+172.30.1.43 fr-db-s2

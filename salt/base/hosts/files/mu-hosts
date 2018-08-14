@@ -1,0 +1,12 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost6 localhost6.localdomain6
+
+
+172.31.8.231    mu-app
+172.31.11.30    mu-app-s1
+
+172.31.4.212    mu-cms
+172.31.8.192    mu-cms-s1
+
+172.31.21.13    mu-db
+172.31.18.203   mu-db-s1

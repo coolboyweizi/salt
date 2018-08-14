@@ -1,0 +1,74 @@
+# FFMPEG FOR AWS
+
+
+yum install -y libbluray-devel openjpeg-devel  orc-devel speex-devel libtheora-devel libvorbis-devel  libXext-devel
+yum install gnutls gnitls-devel fribidi-devel   -y
+
+
+cd /data/soft
+wget http://www.tortall.net/projects/yasm/releases/yasm-1.2.0.tar.gz
+tar -zxvf yasm-1.2.0.tar.gz
+cd yasm-1.2.0
+./configure --prefix=/usr && make -j2 && make -install
+
+
+cd /data/soft
+wget http://www.lysator.liu.se/~nisse/archive/nettle-2.7.1.tar.gz
+tar zxf nettle-2.7.1.tar.gz
+cd nettle-2.7.1
+./configure –-prefix=/usr
+make
+make install
+
+cd /data/soft
+wget https://www.gnupg.org/ftp/gcrypt/gnutls/v3.3/gnutls-3.3.26.tar.xz
+xz -d gnutls-3.3.26.tar.xz
+tar -xf gnutls-3.3.26.tar
+cd /data/soft/gnutls-3.3.26
+./configure --prefix=/usr && make -j2 && make -j2 install
+
+cd /data/soft
+wget https://github.com/libass/libass/releases/download/0.14.0/libass-0.14.0.tar.xz
+xz -d libass-0.14.0.tar.xz
+tar -xf libass-0.14.0.tar
+cd libass-0.14.0
+./configure --prefix=/usr --libdir=/usr/lib64
+make -j2 && make -j2 install
+
+
+cd /data/soft
+wget https://nchc.dl.sourceforge.net/project/modplug-xmms/libmodplug/0.8.9.0/libmodplug-0.8.9.0.tar.gz
+tar -zxvf libmodplug-0.8.9.0.tar.gz
+cd libmodplug-0.8.9.0
+./configure --prefix=/usr --libdir=/usr/lib64 && make -j2 && make -j2 install
+
+
+cd /data/soft
+wget https://nchc.dl.sourceforge.net/project/lame/lame/3.100/lame-3.100.tar.gz
+tar -zxvf lame-3.100.tar.gz
+cd /data/soft/lame-3.100 && ./configure --prefix=/usr --libdir=/usr/lib64 && make -j2 && make -j2 install
+
+
+
+cd /data/soft
+wget https://launchpadlibrarian.net/149460206/schroedinger-1.0.11.tar.gz
+tar -zxvf schroedinger-1.0.11.tar.gz
+cd && schroedinger-1.0.11. && ./configure --prefix=/usr --libdir=/usr/lib64 && make -j2 && make -j2 install
+
+
+cd /data/soft
+wget https://jaist.dl.sourceforge.net/project/soxr/soxr-0.1.2-Source.tar.xz
+xz -d soxr-0.1.2-Source.tar.xz
+tar -xf  soxr-0.1.2-Source.tar
+cd soxr-0.1.2-Source/
+cmake . && make && make install
+
+
+cd /data/soft
+wget http://www.libsdl.org/release/SDL2-2.0.8.zip
+unzip SDL2-2.0.8.zip
+cd SDL2-2.0.8 && ./configure --prefix=/usr --libdir=/usr/lib64 && make -j2 && make -j2 install
+
+
+
+./configure --prefix=/usr --enable-swscale --enable-avfilter --enable-avresample --enable-avformat --enable-libmp3lame --enable-libvorbis --enable-libtheora --enable-libschroedinger --enable-libopenjpeg --enable-libmodplug --enable-libvpx --enable-libsoxr --enable-libspeex --enable-libass --enable-libbluray --enable-lzma --enable-gnutls --enable-fontconfig --enable-libfreetype --enable-libfribidi --disable-libxcb --disable-libxcb-shm --disable-libxcb-xfixes --disable-indev=jack --disable-outdev=xv --enable-sdl2 --enable-shared --enable-pthreads --enable-videotoolbox --enable-yasm --enable-gpl --enable-postproc

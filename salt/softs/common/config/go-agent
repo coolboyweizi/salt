@@ -1,0 +1,4 @@
+GO_SERVER_URL=https://cd.rd.eaglemobi.cc:8154/go
+AGENT_WORK_DIR=/data/go_agent_workspace/${SERVICE_NAME:-go-agent}
+DAEMON=Y
+VNC=N
