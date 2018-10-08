@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/../imgrizer/.idea/imgrizer.iml" filepath="$PROJECT_DIR$/../imgrizer/.idea/imgrizer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/saltstack.iml" filepath="$PROJECT_DIR$/.idea/saltstack.iml" />
       <module fileurl="file://$PROJECT_DIR$/../scripts/.idea/scripts.iml" filepath="$PROJECT_DIR$/../scripts/.idea/scripts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../unitedemo/.idea/unitedemo.iml" filepath="$PROJECT_DIR$/../unitedemo/.idea/unitedemo.iml" />
     </modules>
   </component>
 </project>

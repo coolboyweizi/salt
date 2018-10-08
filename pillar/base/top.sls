@@ -81,7 +81,7 @@ deploy:
       - prod.gao-cms-sing-work-plus
 
 softs:
-  'fr-db':
+  '*':
       - service-api
   'fr-db-s1':
       - service-api
