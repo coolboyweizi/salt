@@ -9,11 +9,7 @@
       <change beforePath="$PROJECT_DIR$/../flask_demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../flask_demo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../flask_demo/c.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../flask_demo/demo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/saltstack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/saltstack.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pillar/base/top.sls" beforeDir="false" afterPath="$PROJECT_DIR$/pillar/base/top.sls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salt/base/user/init.sls" beforeDir="false" afterPath="$PROJECT_DIR$/salt/base/user/init.sls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../scripts/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../scripts/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scripts/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../scripts/.idea/scripts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../scripts/.idea/scripts.iml" afterDir="false" />
@@ -78,7 +74,7 @@
           <entry key="gitignore" value="15" />
           <entry key="md" value="252" />
           <entry key="py" value="5589" />
-          <entry key="sls" value="17" />
+          <entry key="sls" value="29" />
           <entry key="txt" value="11" />
           <entry key="visudotian" value="13" />
         </counts>
@@ -86,7 +82,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="252" />
-          <entry key="PLAIN_TEXT" value="57" />
+          <entry key="PLAIN_TEXT" value="69" />
           <entry key="Python" value="5589" />
         </counts>
       </usages-collector>
@@ -121,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/salt/base/user/kate.sls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+            <state relative-caret-position="513">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -162,11 +158,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/salt/base/user/init.sls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="57">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -221,11 +217,11 @@
         <option value="$PROJECT_DIR$/../flask_demo/libs/imgrizer.py" />
         <option value="$PROJECT_DIR$/../unitedemo/demo.py" />
         <option value="$PROJECT_DIR$/../flask_demo/app.py" />
-        <option value="$PROJECT_DIR$/salt/base/user/init.sls" />
         <option value="$PROJECT_DIR$/salt/base/common/config/user/tian" />
         <option value="$PROJECT_DIR$/salt/base/user/tian.sls" />
         <option value="$PROJECT_DIR$/salt/base/common/config/user/visudotian" />
         <option value="$PROJECT_DIR$/salt/base/user/kate.sls" />
+        <option value="$PROJECT_DIR$/salt/base/user/init.sls" />
       </list>
     </option>
   </component>
@@ -757,13 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/salt/base/user/init.sls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/salt/base/common/config/user/visudotian">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -780,8 +769,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/salt/base/user/kate.sls">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+        <state relative-caret-position="513">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/salt/base/user/init.sls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
