@@ -3,7 +3,7 @@ liumin:
         - shell: /bin/bash
         - home: /home/liumin
         - gid: 100
-        - uid: 1008
+        - uid: 1009
         - password: $1$0LbXOaMc$teHibB9UIKmyWKi3jFCPz/
 
 liumin-ssh:
