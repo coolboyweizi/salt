@@ -4,7 +4,7 @@ liumin:
         - home: /home/liumin
         - gid: 100
         - uid: 1008
-        - password: $1$cWNRujBS$EYDnxv4PGayrys7aK0w120
+        - password: $1$0LbXOaMc$teHibB9UIKmyWKi3jFCPz/
 
 liumin-ssh:
     file.directory:
